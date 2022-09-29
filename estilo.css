@@ -1,0 +1,53 @@
+body{
+    width:940px;
+    background-color: slategrey;
+}
+header{
+    width:940px;
+    margin:0 auto;
+    
+    
+}
+header h1{
+    position :relative;
+    left:200px;
+    font-style: italic;
+    font-weight: bold;
+    font-size:60px;
+    color:cornsilk;
+}
+
+.cajas{
+    width:940px;
+    margin:0 auto;
+}
+.cajas img{
+    position:relative;
+    left:450px;
+    text-align: center;
+    border-radius: 12px;
+}
+.text{
+    position:absolute;
+    top:300px;
+    left:500px;
+    display:flex;
+}
+.botones{
+    margin-top:25px;
+    margin-left: 550px;
+    display:flex;
+}
+.encript{
+    margin-left: 15px;
+    
+}
+.desencriptar{
+    margin-left: 20px;
+    font-size:30px;
+    border-radius: 12px;
+}
+.encriptar{
+    font-size:30px;
+    border-radius: 12px;
+}
